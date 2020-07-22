@@ -16,17 +16,12 @@ exports.taskCreate = (req, res) => {
   res.status(201).json(newTask);
 };
 
-// exports.taskUpdate = (req, res) => {
-//   const { taskID } = req.params;
-//   const foundTask = mugs.find((task) => task.id === +taskID);
-
-//   if (foundTask) {
-//     for (const key in req.body) foundTask[key] = req.body[key];
-//     res.status(204).end();
-//   } else {
-//     res.status(404).json({ message: "Task Not Found" });
-//   }
-// };
+exports.taskUpdate = (req, res) => {
+  const { taskID } = req.params;
+  const task = tasks.find((task) => task.id === +taskID);
+  task.click = !task.click;
+  res.status(204).end();
+};
 
 exports.taskDelete = (req, res) => {
   const { taskID } = req.params;

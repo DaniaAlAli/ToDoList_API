@@ -4,7 +4,7 @@ const tasks = [
     name: "Pop Funko",
     details: "Go to Geekay store",
     status: "Personal",
-    date: "7/23/2020",
+    date: "2020-7-22",
     click: true,
   },
   {
@@ -12,7 +12,7 @@ const tasks = [
     name: "Excel Sheet",
     details: "Give it to Mohammed",
     status: "Work",
-    date: "7/22/2020",
+    date: "2020-7-29",
     click: true,
   },
 ];

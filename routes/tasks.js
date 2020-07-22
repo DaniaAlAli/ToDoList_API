@@ -10,16 +10,16 @@ const {
 
 const router = express.Router();
 
-// Mug List
+// Task List
 router.get("/", taskList);
 
-// Mug create
+// Task create
 router.post("/", taskCreate);
 
-// Mug update
-// router.put("/:taskID", mugUpdate);
+//Task update
+router.put("/:taskID", taskUpdate);
 
-// Mug Delete
+// Task Delete
 router.delete("/:taskID", taskDelete);
 
 module.exports = router;
