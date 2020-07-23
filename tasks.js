@@ -1,18 +1,18 @@
 const tasks = [
   {
     id: 1,
-    name: "Pop Funko",
-    details: "Go to Geekay store",
+    name: "GoT",
+    details: "Go to Geekay have the collector's edition",
     status: "Personal",
-    date: "2020-7-22",
+    date: "2020-07-23",
     click: true,
   },
   {
     id: 2,
-    name: "Excel Sheet",
-    details: "Give it to Mohammed",
+    name: "PowerBI",
+    details: "Automate application daily results",
     status: "Work",
-    date: "2020-7-29",
+    date: "2020-07-25",
     click: true,
   },
 ];
